@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "http://localhost:8080/api/note";
+const API_URL = "REACT_APP_MY_SEVER_NOTE";
 
 class NotesService {
   save(title, category, text) {
