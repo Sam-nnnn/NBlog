@@ -1,0 +1,36 @@
+div.NBlog {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.3rem;
+    div.write {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        div.titleAndCategory {
+            margin: 1rem 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            label {
+                margin: 0rem 1rem;
+            }
+        }
+        #textInput {
+            border-radius: 12px;
+            border-color: rgb(227, 227, 227);
+            font-size: 1.2rem;
+            margin: 0rem 0.5rem 1rem 0.5rem;
+            padding: 0.5rem;
+        }
+        #textInput:checked {
+            border-color: #8FA5B7; 
+        }
+        button {
+            margin: auto;
+            padding: 0.5rem 1rem;
+        }
+        
+    }
+}

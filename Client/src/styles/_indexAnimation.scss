@@ -1,0 +1,23 @@
+div.animation {
+    background-image: url('../img//indexPageImg.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+
+    ul {
+        display: flex;
+        li {
+            a {
+                margin: 0 0.75rem;
+                font-size: 1.75rem;
+                text-decoration: none;
+            }
+        }
+    }
+    
+}
+

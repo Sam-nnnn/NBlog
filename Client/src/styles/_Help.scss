@@ -1,0 +1,32 @@
+div.help {
+    div.helpInput {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3 {
+            margin: 1rem 0;
+        }
+        div.titleAndText {
+            display: flex;
+            flex-direction: column;
+            input {
+                margin-top: 1rem;
+                width: 20rem;
+                min-height: 3rem;
+            }
+            textarea {
+                padding-top: 0.5rem;
+                margin: 1rem 0;
+                width: 40rem;
+                min-height: 20rem;
+            }
+        }
+        button {
+            margin: 0.5rem;
+            padding: 0.5rem 1rem;
+            background-color: #fff;
+            border-radius: 10px;
+        }
+        
+    }
+}

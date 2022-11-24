@@ -1,0 +1,33 @@
+div.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    div.error {
+        margin-bottom: 1rem;
+        padding: 0.5rem 1rem;
+        background-color: rgb(255, 210, 210);
+        border-radius: 5px;
+    }
+    margin: 2rem;
+    div.loginInput {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+            input {
+                margin: 0.5rem;
+                border-radius: 5px;
+                border: 0.5px solid #a9a9a9;
+                padding: 0.5rem;
+            }
+
+
+        button {
+            margin-top: 1rem;
+            padding: 0.3rem 0.5rem 0.5rem 0.6rem;
+            margin-bottom: 0.4rem;
+            border-radius: 5px;
+            background-color: white;
+            border-color: #b8b8b8;
+        }
+    }
+}

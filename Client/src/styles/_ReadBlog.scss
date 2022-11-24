@@ -1,0 +1,49 @@
+div.ReadBlog {
+    margin: 1rem;
+    div.totalNote {
+        div.note {
+            display: flex;
+            flex-direction: column;
+            margin: 1rem;
+            div.noteNav {
+                display: flex;
+                align-items: flex-end;
+                padding: 0.5rem;
+                justify-content: space-between;
+                div.titleAndIcon {
+                    display: flex;
+                        i {
+                            color: #ACACAC;
+                            margin-top: 0.9rem;
+                            font-size: 1.75rem;
+                            padding-right: 0.75rem;
+                            cursor: pointer;
+                        }
+
+                    h2 {
+                        padding-left: 0;
+                        margin-right: 5rem;
+                        font-weight: bold;
+                    }
+
+                }
+                         
+                p {
+                    margin: 0;
+                }
+            }
+            h4 {
+                margin: 0 0 2rem 0;
+                padding: 0.5rem;
+                width: auto;
+                border: 0.5px solid black;
+            }
+        }
+    }
+
+    // //         display: flex;
+    // //         flex-direction: column;
+    // //         div.noteNav {
+    // //             display: flex;
+
+}
